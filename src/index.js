@@ -5,6 +5,8 @@ import Inicio from './Compmodif/inicio';
 import BeardBikes from './Paginas/beardbikes';
 import Ciclistasf from './Paginas/Ciclistasf';
 import { createBrowserRouter, RouterProvider} from "react-router-dom";
+import Infot from "./Paginas/infot";
+import Infob from "./Paginas/Infob";
 
 const router = createBrowserRouter([
   {
@@ -20,12 +22,12 @@ const router = createBrowserRouter([
     element: <Inicio/>
   },
   {
-    path: '/',
-    element: <Inicio/>
+    path: '/infot',
+    element: <Infot/>
   },
   {
-    path: '/',
-    element: <Inicio/>
+    path: '/infob',
+    element: <Infob/>
   },
   {
     path: '/',

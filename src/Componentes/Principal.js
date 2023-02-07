@@ -10,7 +10,7 @@ function Principal(){
                     <h1>BeardBikes</h1>
                 </div>
                 <nav className={"menu"}>
-                    <a href="/prueba1/public">Inicio</a>
+                    <a href="/">Inicio</a>
                     <a href="prueba1/src/Componentes/Principal">Nosotros</a>
                     <a href="src/componentes/Principal#">Contacto</a>
                 </nav>
@@ -23,10 +23,10 @@ function Principal(){
                 <nav>
                     <a href={"/form"}>Registro</a>
                     <a href={"/form"}>Inicio de sesion</a>
-                    <a href={"/form"}>Sitios turisticos</a>
+                    <a href={"/infot"}>Sitios turisticos</a>
                     <a href={"/form"}>Tienda</a>
                     <a href={"/form"}>Comercios</a>
-                    <a href={""}>Info bicicletas</a>
+                    <a href={"/infob"}>Info bicicletas</a>
                     <a href={"/form"}>Tienda bicicletas</a>
                     <a href={"/form"}>Talleres</a>
                     <a href={"/form"}>Reparaciones</a>
