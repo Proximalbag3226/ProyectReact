@@ -4,7 +4,6 @@ import Contra from "../Componentes/contra";
 import Email from "../Componentes/email.js";
 import Numero from "../Componentes/numero.js";
 import Boton from "../Componentes/botonr.js";
-import Alertas from "../Componentes/alertas.js";
 
 function Formulario(props){
     return(
@@ -14,7 +13,8 @@ function Formulario(props){
                 <br/><br/><br/>
                 <Inputs
                 placeholder={"Nombre"}
-                idt={"nombre"}/><br/><br/>
+                idt={"nombre"}
+                /><br/><br/>
                 <Inputs
                 placeholder={"Apellido Paterno"}
                 idt={"apellido_paterno"}/><br/><br/>
@@ -28,7 +28,6 @@ function Formulario(props){
                 <Contra
                 placeholder={"Contraseña"}/><br/><br/><br/>
                 <Boton/>
-                <Alertas/>
             </div>
         </div>
     );
