@@ -7,6 +7,7 @@ import Ciclistasf from './Paginas/Ciclistasf';
 import { createBrowserRouter, RouterProvider} from "react-router-dom";
 import Infot from "./Paginas/infot";
 import Infob from "./Paginas/Infob";
+import Bellasartes from "./Paginas/Bellasartes";
 
 const router = createBrowserRouter([
   {
@@ -30,8 +31,8 @@ const router = createBrowserRouter([
     element: <Infob/>
   },
   {
-    path: '/',
-    element: <Inicio/>
+    path: '/bellasartes',
+    element: <Bellasartes/>
   },
   {
     path: '/',

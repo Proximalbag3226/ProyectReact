@@ -432,4 +432,34 @@ body{
     float: right;
   }
 
+.textito{
+    max-width: 40%;
+    transform: translateY(-100px);
+    margin-left: 7%;
+    padding: 0;
+    position: fixed;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.textito1{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.imagenes{
+    max-width: 600px;
+    max-height: 500px;
+    margin-left: 60%;
+    margin-top: 13%;
+    background-attachment: fixed;
+}
+
+.imagenes figure img{
+    border-radius: 5px;
+    width: 90%;
+    height: 90%;
+}
+
+
+
 
