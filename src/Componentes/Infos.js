@@ -15,11 +15,11 @@ export function Infos(props){
             </div>
             <div className="imagenes">
                 <figure>
-                    <img src={require(`../IMG/img_${props.img1}.jpg`)}/>
+                    <img src={require(`../IMG/${props.img1}.jpg`)}/>
                     <br/><br/><br/><br/>
-                    <img src={require(`../IMG/img_${props.img2}.jpg`)}/>
+                    <img src={require(`../IMG/${props.img2}.jpg`)}/>
                     <br/><br/><br/><br/><br/>
-                    <img src={require(`../IMG/img_${props.img3}.jpg`)}/>
+                    <img src={require(`../IMG/${props.img3}.jpg`)}/>
                 </figure>
             </div>
         </div>

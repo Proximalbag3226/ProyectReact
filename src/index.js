@@ -8,6 +8,13 @@ import { createBrowserRouter, RouterProvider} from "react-router-dom";
 import Infot from "./Paginas/infot";
 import Infob from "./Paginas/Infob";
 import Bellasartes from "./Paginas/Bellasartes";
+import Zocalo from "./Paginas/Zocalo";
+import Torre from "./Paginas/Torre";
+import Xochimilco from "./Paginas/Xochimilco";
+import Reforma from "./Paginas/Reforma";
+import Polanco from "./Paginas/Polanco";
+import Basilica from "./Paginas/Basilica";
+import Chapultepec from "./Paginas/Chapultepec";
 
 const router = createBrowserRouter([
   {
@@ -31,21 +38,39 @@ const router = createBrowserRouter([
     element: <Infob/>
   },
   {
+    path: '/zocalo',
+    element: <Zocalo/>
+  },
+  {
     path: '/bellasartes',
     element: <Bellasartes/>
   },
   {
-    path: '/',
-    element: <Inicio/>
+    path: '/torre',
+    element: <Torre/>
   },
   {
-    path: '/',
-    element: <Inicio/>
+    path: '/xochimilco',
+    element: <Xochimilco/>
   },
   {
-    path: '/',
-    element: <Inicio/>
+    path: '/reforma',
+    element: <Reforma/>
   },
+  {
+    path: '/polanco',
+    element: <Polanco/>
+  },
+  {
+    path: '/basilica',
+    element: <Basilica/>
+  },
+  {
+    path: '/chapultepec',
+    element: <Chapultepec/>
+  },
+
+
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

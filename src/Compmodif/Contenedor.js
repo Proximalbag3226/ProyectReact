@@ -7,7 +7,7 @@ function Contenedor() {
             <Tarjeta
                 lugar='Zocalo'
                 imagen='zocalo'
-                href={"/form"}/>
+                href={"/zocalo"}/>
             <Tarjeta
                 lugar='Bellas Artes'
                 imagen='bellas_artes'
@@ -15,27 +15,27 @@ function Contenedor() {
             <Tarjeta
                 lugar='Torre Latinoamericana'
                 imagen='torre'
-                href={""}/>
+                href={"/torre"}/>
             <Tarjeta
                 lugar='Xochimilco'
                 imagen='xochimilco'
-                href={""}/>
+                href={"/xochimilco"}/>
             <Tarjeta
                 lugar='Reforma'
                 imagen='reforma'
-                href={""}/>
+                href={"/reforma"}/>
             <Tarjeta
                 lugar='Polanco'
                 imagen='polanco'
-                href={""}/>
+                href={"/polanco"}/>
             <Tarjeta
                 lugar='Basilica'
                 imagen='basilica'
-                href={""}/>
+                href={"/basilica"}/>
             <Tarjeta
                 lugar='Chapultepec'
                 imagen='chapultepec'
-                href={""}/>
+                href={"/chapultepec"}/>
         </div>
     )
 }
