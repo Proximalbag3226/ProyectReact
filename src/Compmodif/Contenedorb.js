@@ -6,16 +6,20 @@ function Contenedorb() {
         <div>
             <Tarjeta
                 lugar='¿Tu cuadro de bici es original?'
-                imagen='casco'/>
+                imagen='casco'
+                href={"/cuadro"}/>
             <Tarjeta
                 lugar='Baterias Phylion'
-                imagen='bici'/>
+                imagen='bici'
+                href={"/baterias"}/>
             <Tarjeta
                 lugar='Equipamiento obligatorio'
-                imagen='equipo'/>
+                imagen='equipo'
+                href={"equipo"}/>
             <Tarjeta
                 lugar='Viabilidad de los sistemas de bicicletas'
-                imagen='rojo'/>
+                imagen='rojo'
+                href={"/viabilidad"}/>
         </div>
     )
 }

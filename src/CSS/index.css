@@ -210,7 +210,6 @@ body{
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    margin-left: 10%;
   }
   
   .button-85:before {
@@ -460,6 +459,39 @@ body{
     height: 90%;
 }
 
+.eleccion{
+    text-align: center;
+    margin-top: 100px;
+}
 
+.eleccion a{
+    text-decoration: none;
+    outline: none;
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    font-size: 30px;
+    background-color: rgba(215, 32, 87, 0.18);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.product-container{
+    width: 450px;
+    height: 450px;
+    text-align: center;
+    align-items: center;
+    margin: 5%;
+}
+
+.product-container img{
+    width: 300px;
+    background-color: grey;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: black;
+    border-radius: 15px;
+}
 
 

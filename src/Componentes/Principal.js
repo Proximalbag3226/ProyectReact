@@ -21,13 +21,13 @@ function Principal(){
         <div className={"container-menu"}>
             <div className={"cont-menu"}>
                 <nav>
-                    <a href={"/form"}>Registro</a>
+                    <a href={"/eleccion"}>Registro</a>
                     <a href={"/form"}>Inicio de sesion</a>
                     <a href={"/infot"}>Sitios turisticos</a>
                     <a href={"/form"}>Tienda</a>
                     <a href={"/form"}>Comercios</a>
                     <a href={"/infob"}>Info bicicletas</a>
-                    <a href={"/form"}>Tienda bicicletas</a>
+                    <a href={"/tienda"}>Tienda bicicletas</a>
                     <a href={"/form"}>Talleres</a>
                     <a href={"/form"}>Reparaciones</a>
                     <a href={"/form"}>Creador de rutas</a>

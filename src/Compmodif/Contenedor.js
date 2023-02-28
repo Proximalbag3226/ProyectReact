@@ -1,4 +1,4 @@
-import {Tarjeta} from "../Componentes/Tarjeta";
+import Tarjeta from "../Componentes/Tarjeta";
 import '../CSS/Tarjetas.css'
 
 function Contenedor() {
