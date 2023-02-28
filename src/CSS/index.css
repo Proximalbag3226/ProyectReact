@@ -265,8 +265,9 @@ body{
   }
 
   .wrapper {
+	  display: flex;
+  justify-content: center;
 		max-width: 600px;
-		float: right;
 		background-attachment: fixed;
 		margin-right: 5%;
 		padding-bottom: 4%;
@@ -366,8 +367,9 @@ body{
 	}
 
 	.textito{
+		display: flex;
+ 		 justify-content: center;
 		max-width: 40%;
-		float: left;
 		padding-bottom: 4%;
 		background-attachment: fixed;
 		z-index: -1;
