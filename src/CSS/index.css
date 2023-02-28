@@ -266,7 +266,6 @@ body{
 
   .wrapper {
 		max-width: 600px;
-		float: right;
 		background-attachment: fixed;
 		margin-right: 5%;
 		padding-bottom: 4%;
@@ -367,7 +366,6 @@ body{
 
 	.textito{
 		max-width: 40%;
-		float: left;
 		padding-bottom: 4%;
 		background-attachment: fixed;
 		z-index: -1;
