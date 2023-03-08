@@ -9,7 +9,7 @@ const Infob = () =>{
             </div>
             <h1 className={"titulo"}>Informacion de bicicletas</h1>
             <br/><br/>
-            <div>
+            <div>   
                 <Contenedorb/>
             </div>
         </div>
